@@ -1,0 +1,130 @@
+.fvBlock{
+
+    position:relative;
+
+    width: 1600px;
+    height: 524px;
+
+    background-image: url(../FvBlock/pexels-christina-morillo.svg);
+}
+
+.wrapInput{
+    position: relative;
+    display: flex;
+
+    left: 597px;
+    top:258px;
+    
+}
+
+.indent{
+    position: relative;
+    width: 24px;
+    left: 0px;
+    top: 0px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+ 
+    background-color: #FFFFFF;
+
+}
+
+
+.input{
+
+    font-family: Roboto;
+}
+
+#input_fvBlock{
+
+    position: relative;
+    /* position: absolute; */
+    width: 316px;
+    height: 46px;
+
+    padding: 0px;
+
+    background: #FFFFFF;
+    /* border-radius: 0px; */
+    border: none;
+
+   
+font-family: inherit;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+ 
+color: rgba(55, 55, 55, 0.5);
+
+/* opacity: 0; */
+
+}
+
+#input_fvBlock:focus{ 
+
+    position: relative;
+    width: 316px;
+    height: 46px;
+    /* left: 24px;
+    top: 13px; */
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    border: none;
+    /* background-color: transparent; */
+    resize: none;
+    outline: none;
+    
+    color: #373737;
+
+
+}
+
+
+.button_fvBlock{
+    
+width: 66px;
+height: 46px;
+border:none;
+
+background: #00AFDB;
+
+}
+
+.button_fvBlock:hover{
+
+    background: #009CC2;
+    cursor: pointer;
+}
+
+.text_fourBlock{
+
+position: absolute;
+/* width: 380px; */
+height: 28px;
+left: 610px;
+top: 200px;
+
+/* h2-24-bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+opacity: 0.9;
+}

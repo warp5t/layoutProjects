@@ -1,0 +1,61 @@
+.svnBlock{
+
+position:relative;    
+
+height: 185px;
+width: 1600px;
+
+background-color:  #000000;;
+
+}
+
+.wrap_text_svn {
+
+    position:relative;
+    display: flex;
+    left: 160px;
+    top: 73px;
+}
+
+.text_svn {
+
+    position: relative;
+    
+    margin-left: 40px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    opacity: 0.8;
+
+    color: #FFFFFF;
+}
+
+.text_svn:hover{
+     
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.image_svn {
+
+position: relative;
+width: 44px;
+height: 45px;
+top: 40px;
+left: 778px;
+
+background-image: url(../SvnBlock/Vector.svg);
+
+/* background: #FFFFFF; */
+}
+
+.image_svn { 
+
+    cursor: pointer;
+    
+}

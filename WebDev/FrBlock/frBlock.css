@@ -1,0 +1,112 @@
+.frBlock{
+    position: relative;
+    width: 1600px;
+    height: 842px;
+    background: #FFFFFF;
+}
+
+.wrap_fourBlock{
+    display: flex;
+}
+
+.image_fourBlock{
+
+    position: relative;
+
+    height: 582px;
+    width: 407px;
+    left: 269px;
+    top: 120px;
+    
+    
+    background-image: url(../FrBlock/content-image-2.jpg);
+}
+
+/* .column_texts{
+    
+} */
+
+.text_1_fourBlock{
+
+position: absolute;
+width: 298px;
+height: 28px;
+left: 815px;
+top: 319px;
+
+/* h2-24-bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #373737;
+
+white-space: nowrap;
+
+}
+
+.text_2_fourBlock{
+
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: 815px;
+    top: 367px;
+    
+    /* body-14-reg */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    
+    /* or 20px */
+    
+    color: #4E4E4E;
+
+}
+
+
+.button_fourBlock{
+    
+    padding: 15px 47px;
+    
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: 862px;
+    top: 472px;
+
+    border:none;
+    
+    background: #00AFDB;
+}
+
+.button_fourBlock:hover{
+    background: #009CC2;
+    cursor: pointer;
+}
+
+.learnMore{
+
+width: 86px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+
+white-space: nowrap;
+
+color: #FFFFFF;
+
+}

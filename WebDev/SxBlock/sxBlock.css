@@ -1,0 +1,129 @@
+.sxBlock{
+
+    position: relative;    
+
+    width: 1600px;
+    height: 464px;
+
+    background-color: #F5F6F7;
+}
+
+.text_1_sxBlock{
+    position: relative;
+
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    left: 675px;
+    top: 120px;
+
+/* h2-24-bold */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+
+    color: #373737;
+}
+
+
+.text_2_sxBlock{
+    position: relative;
+
+    width: 480px;
+    height: 40px;
+    left: 560px;
+    top: 168px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+
+
+    color: #4E4E4E;
+}
+
+.wrap_buttons_sxBlock{
+    
+    position: relative;
+    display: flex;
+    left: 599px;
+    top: 198px;
+    
+}
+
+.button_sxBlock{
+
+    width: 127px;
+    height: 46px;
+    
+    
+    background: #00AFDB;
+    border-radius: 0px;
+    border: none;
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.button_sxBlock:hover {
+
+    cursor: pointer;
+    background: #009CC2;
+
+
+}
+
+
+.wrap_image_sx {
+
+display:flex;
+justify-content: center;   
+
+width: 59px;
+height: 46px;
+margin-right: 46px;
+
+
+background: #009CC2;
+border-radius: 0px;
+
+}
+
+.image_1_sxBlock{
+
+width: 17px;
+height: 20px;
+margin: auto; 
+
+background-image: url(../SxBlock/Combined755.svg);
+}
+
+.image_2_sxBlock{
+
+
+    width: 20px;
+    height: 23px;
+    margin: auto; 
+
+    background-image: url(../SxBlock/Combined761.svg);
+}
+

@@ -1,0 +1,195 @@
+.thrdBlock{
+    display: flex;
+    position: relative;
+    /* flex-direction: row; */
+    width: 1600px;
+    height: 504px;
+    background: #F5F6F7;
+}
+
+
+
+
+/* ------------------------------------  1   ----------------------------------- */
+
+.part_1_thrd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+     width: 44.125%; /* ------- width - 298px */
+    height:  inherit;
+}
+
+.wrap_userPict{
+    position:relative;
+    left:65px;
+    top:155px;
+    
+}
+
+.userPict {
+
+    width: 45px;
+    height: 45px;
+   
+    background-image:url(../ThrdBlock/userpic.svg);
+
+}
+
+
+.title_thrd {
+
+position: relative;
+left: 66px;
+top: 175px;
+
+/* h3-16-upper-bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+/* identical to box height, or 125% */
+/* display: flex;
+align-items: center;
+text-align: center; */
+letter-spacing: 2.4px;
+text-transform: uppercase;
+
+color: #373737;
+
+/* white-space: nowrap; */
+}
+
+.text_3{
+
+position: relative;
+width: 298px;
+height: 80px;
+
+
+left: 65px;
+top: 185px;
+
+
+/* body-14-reg */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+
+/* or 20px */
+/* display: flex; */
+/* align-items: flex-end; */
+text-align: center;
+
+color: #4E4E4E;
+}
+
+/* ----------------------------------    2    ---------------------------------------- */
+.part_2_thrd {
+
+    position: relative;
+    height: inherit;
+    width: 894px;
+
+
+}
+
+.images {
+    display: initial;
+    position: relative;
+    min-height: 244px; 
+    min-width: 407px;
+    margin-right:  30px;  
+    background-color: rgb(188, 245, 57);
+    
+}
+
+.images_wrap {
+    position: relative;
+    display: flex;
+    top: 23.8%;
+    width: inherit;
+    height: 244px;
+    transition: all ease 1s; 
+    
+    /* background-color: coral; */
+}
+
+.slideShow{
+    position: relative;
+    display: flex;
+    top: 23.8%;
+    width: inherit;
+    overflow: hidden;
+    /* height: 244px; */
+}
+
+.pannelButtons{
+    position: absolute;
+    display: flex;
+    top: 85.34px;
+    right: 271px;
+    /* margin-left: auto  */
+}
+
+.images:nth-child(9n+3){background-color: rgb(188, 245, 57);}
+.images:nth-child(9n+4){background-color: rgb(5, 180, 98);}
+.images:nth-child(9n+5){background-color: rgb(238, 40, 188);}
+.images:nth-child(9n+6){background-color: rgb(227, 243, 10);}
+.images:nth-child(9n+7){background-color: rgb(157, 73, 252);}
+.images:nth-child(9n+8){background-color: rgb(247, 91, 125);}
+.images:nth-child(9n+9){background-color: rgb(43, 62, 235);}
+
+.greaterLesserL, .greaterLesserR {
+
+    height: 11.31px;
+    width: 5.66px;
+    color:#373737;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+    margin:0px 15.34px 0px 15.34px;
+}
+
+.greaterLesserL:hover, .greaterLesserR:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.numberR, .numberL {
+
+    height: 18px;
+    width: 11px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+
+}
+
+.slash {
+
+    height: 13.9px;
+    width: 6.71px;
+    color:#373737;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+    margin: 0px 4px 0px 4.29px;
+}
+
