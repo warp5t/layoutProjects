@@ -77,18 +77,6 @@
 
 }
 
-/* @media (max-width:320px){
-    .menu__item {
-        margin: 0px 0px 5px 74px;
-        
-    }
-} */
-/* .menu__item{
-    margin: 0px 21px 0px 0px;
-     /* in original explonation there is :not(last-child) {margin: 0px 21px 0px 0px;} 
-} */ 
-
-
 .menu__link{
     color:#737373;
     font-weight:600;
