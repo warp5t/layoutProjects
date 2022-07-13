@@ -4,7 +4,6 @@
 
 img {
     position:relative;
-    
     top:0;
     left:0;    
 } 
@@ -39,6 +38,19 @@ img {
             padding: 120px 0px 191px 0px;
         }
     }
+
+    @media (max-width: 479px) {
+        .main-block__body {
+            padding: 115px 0px 160px 0px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .main-block__body {
+            padding: 132px 0px 160px 0px;
+        }
+    }
+
     
     .main-block__body > *:not(:last-child){
         margin: 0px 0px 35px 0px;
